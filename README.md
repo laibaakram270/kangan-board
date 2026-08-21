@@ -1,32 +1,31 @@
-# React + TypeScript + Vite
+# 📋 Kanban Board - Internship Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive Kanban board built with React, TypeScript, Tailwind CSS and IndexedDB.  
+Features native drag & drop, data persistence, and undo/redo functionality.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[https://kanban-board-mohi9a019-laiba-5064.vercel.app](https://kanban-board-mohi9a019-laiba-5064.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Drag & Drop**: Move tasks between columns using native HTML5 Drag API
+- **Data Persistence**: Tasks saved in browser using IndexedDB - no data loss on refresh
+- **Undo / Redo**: Press `Ctrl+Z` to undo, `Ctrl+Y` to redo changes
+- **CRUD Operations**: Add, edit, delete tasks and columns
+- **Responsive Design**: Works perfectly on mobile, tablet and desktop
+- **Local First**: No backend or login required
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+- **Frontend**: React 18 + TypeScript
+- **Styling**: Tailwind CSS
+- **Build Tool**: Vite
+- **Database**: IndexedDB for client-side storage
+- **Deployment**: Vercel
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🏃‍♀️ Run Locally
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+1. Clone the repo
+```bash
+git clone https://github.com/laibaakram270/kanban-board.git
+cd kanban-board
