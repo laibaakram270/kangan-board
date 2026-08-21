@@ -23,11 +23,15 @@ Features native drag & drop, data persistence, and undo/redo functionality.
 - **Database**: IndexedDB for client-side storage
 - **Deployment**: Vercel
 
-- ## Install dependencies:-
+- ##  Install dependencies:-
   bash:
+  
   npm install
+  
   Start development server:-
+  
   bash:
+  
   npm run dev
   
   Open http://localhost:5173 in your browser
