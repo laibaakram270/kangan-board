@@ -33,6 +33,9 @@ Features native drag & drop, data persistence, and undo/redo functionality.
   bash:
   
   npm run dev
+
+  ## Testing:
+  https://drive.google.com/file/d/1-YzXCfgBvv5VZo_UnE11Wtw9ttxifFM2/view?usp=drive_link
   
 
 ## 🏃‍♀️ Run Locally
@@ -41,3 +44,5 @@ Features native drag & drop, data persistence, and undo/redo functionality.
 ```bash
 git clone https://github.com/laibaakram270/kanban-board.git
 cd kanban-board
+
+
