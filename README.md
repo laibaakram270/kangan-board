@@ -34,7 +34,6 @@ Features native drag & drop, data persistence, and undo/redo functionality.
   
   npm run dev
   
-  Open http://localhost:5173 in your browser
 
 ## 🏃‍♀️ Run Locally
 
