@@ -11,7 +11,7 @@ Features native drag & drop, data persistence, and undo/redo functionality.
 - **Drag & Drop**: Move tasks between columns using native HTML5 Drag API
 - **Data Persistence**: Tasks saved in browser using IndexedDB - no data loss on refresh
 - **Undo / Redo**: Press `Ctrl+Z` to undo, `Ctrl+Y` to redo changes
-- **CRUD Operations**: Add, edit, delete tasks and columns
+- **CRUD Operations**: Add, delete tasks and columns
 - **Responsive Design**: Works perfectly on mobile, tablet and desktop
 - **Local First**: No backend or login required
 
